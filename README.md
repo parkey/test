@@ -1,0 +1,1 @@
+IPython notebooks (filtillägg ipynb) kan renderas genom att url:en https://raw.githubusercontent.com/parkey/test/master/<filnamn> läggs in i boxen på sidan http://nbviewer.ipython.org/ och tryck "Go!"
