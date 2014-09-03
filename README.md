@@ -1,4 +1,7 @@
 # IPython Notebook
 
 
-[Plotta sinuskurvan med syskonkurvor](http://nbviewer.ipython.org/github/parkey/test/blob/master/graph1.ipynb?1)
+Fil|Beskrivning
+----------------
+[graph1.ipynb](http://nbviewer.ipython.org/github/parkey/test/blob/master/graph1.ipynb?2) | Plotta sinuskurvan medsyskonkurvor
+
