@@ -85,24 +85,3 @@ def get_index(write_readme=False):
 if __name__ == '__main__':
     display(get_index(True))
 
-# <codecell>
-
-os.getcwd()
-
-# <codecell>
-
-if __name__ == '__main__':
-    #display(status())
-    print([f for f in os.walk('.')])
-
-# <codecell>
-
-!pwd
-
-# <codecell>
-
-'' in ['1','2','3']
-
-# <codecell>
-
-
