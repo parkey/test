@@ -46,16 +46,17 @@ def git_list():
     '''returnerar filer i arkivet relativt rotkatalogen i filförrådet'''
     try:
         curdir = os.getcwd()
-        os.chdir(localbasepath)
+        os.chdir(localgitbasepath)
         get_ipython().run_cell_magic('bash', '--out output', 'git ls-files')
+        return output.split('\n')
     finally:
         os.chdir(curdir)
-    return output.split('\n')
 
 # <codecell>
 
 if __name__ == '__main__':
     display(git_list())
+    display(get_index())
 
 # <codecell>
 
