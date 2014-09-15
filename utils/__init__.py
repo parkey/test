@@ -56,7 +56,7 @@ def git_list():
 
 if __name__ == '__main__':
     display(git_list())
-    display(get_index()
+    display(get_index())
 
 # <codecell>
 
